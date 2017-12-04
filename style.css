@@ -1,0 +1,42 @@
+
+.container{
+    width: 800px;
+    border:none;
+    padding: none;
+    margin: auto;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #031926;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 36px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h2{
+    color:#196F86;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: #F47D08;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.form{
+    color: #85AA55;
+}

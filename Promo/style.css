@@ -1,0 +1,277 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/** Header **/
+.header {
+  background-color: #292B49;
+  height: 800px;
+  background-position: center;
+  padding-left: 100px;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-weight:600;    
+  font-size: 150px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  top: 30%;
+}
+
+.header h2 {
+  
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-weight:300;  
+  font-size: 66px;
+  line-height: 40px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  top: 38%;
+}
+
+.header p {
+  
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-weight:500;
+  font-size: 23px;
+  line-height: 90px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  top: 42%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px 0px 40px;
+    overflow: hidden;
+    background-color: none;
+    position: fixed;
+    font-family: "Raleway", sans-serif;
+    font-weight:300;
+    font-size: 16px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #292B49;
+}
+
+
+/** About **/
+.about {
+  height: 800px;        
+  background-color:#EAC324;
+  overflow: auto;
+  align-self: center;
+  background-image: url("me.svg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.about p {
+  
+  color: #3D4566;
+  font-family: "Raleway", sans-serif;
+  font-weight:400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  position: relative;
+  text-align: justify;
+  top: 42%;
+  padding-left: 800px;
+  padding-right: 200px;
+  
+}
+
+.about h3 {
+  
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight:500;
+  font-size: 40px;
+  line-height: 20px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  top: 38%;
+  padding-left: 800px;
+  padding-right: 100px;
+  
+}
+
+#plane{
+    
+  color: #3D4566;
+  font-family: 'Play', sans-serif;
+  font-weight:400;
+  font-size: 35px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  top: 10%;
+  padding-left: 800px;
+  padding-right: 100px;
+    
+}
+
+.button {
+    background-color: #292B49;
+    font-family: 'Play', sans-serif;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {background-color: #E2A89A;}
+
+
+/* resume */
+.resume {
+  height: 900px;        
+  background-color:#E2A89A;
+  overflow: auto;
+  align-self: center;
+}
+
+
+
+.resume h3 {
+  
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight:500;
+  font-size: 40px;
+  line-height: 20px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  top: 36%;
+  padding-left: 250px;
+  
+}
+
+table.cv {
+    font-family: "Raleway", sans-serif;
+    margin-top: 350px;
+    padding-left: 100px;
+    line-height: 20px;
+    }
+
+td.section {
+    width: 120px;
+    color: #292B49;
+    top: 38%;
+    text-transform: uppercase;
+    font-weight:600;
+    text-align: right;
+}
+
+
+td.description {
+    width: 800px;
+    top: 38%;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: #292B49;
+    font-size: 18px;
+ 
+}
+
+
+
+/* contacts */
+.contacts  {
+  height: 870px;        
+  background-color:#3D4566;
+  overflow: auto;
+  background-image: url("group.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.contacts p {
+  
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight:400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  padding-left: 400px;
+  padding-right: 400px;
+  
+}
+
+.contacts h3 {
+  
+  color: #EAC324;
+  font-family: "Raleway", sans-serif;
+  font-weight:500;
+  font-size: 40px;
+  line-height: 20px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 15%;
+  
+}
+
+.contacts a{
+    
+    color:#ffffff;   
+}
+
+.contacts a:hover {
+    color:#E2A89A;
+}
+
+#social{
+    top: 30%;
+    font-size: 30px;
+    padding: 15px;
+    color:  #E2A89A;
+}
+
+
+h3 {
+  text-transform: uppercase;
+}
+
+
+

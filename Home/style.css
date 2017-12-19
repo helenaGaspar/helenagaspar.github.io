@@ -102,7 +102,7 @@ body {
 
 
     .section_tres p {
-                text-align: center;
+        text-align: center;
         width: 100%;
             }
 
@@ -401,9 +401,69 @@ color:white;}
                 padding-right: 2%;
                 padding-left: 2%;
             }
-    
+   
     .float_sec{
     width: 100%;
 }
 
+    .list{
+            width: 100%;
+            text-align: center;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+    .list p{
+
+        padding-left: 2%;
+        padding-left: 2%;
+        line-height: 1.2em;
+        text-align: center;
+
+    }
+    
+    .list h2{
+
+        padding-left: 2%;
+        padding-left: 2%;
+        line-height: 1.2em;
+
+    }
+    
+    .list h3{
+
+        padding-left: 2%;
+        padding-left: 2%;
+        line-height: 1.2em;
+
+    }
+    
+    .about{
+            width: 100%;
+            text-align: center;
+            padding-left: 2%;
+            padding-right: 2%;
+      }
+    
+    
+    .about p {
+            width: 100%;
+            text-align: center;
+            
+      }
+    
+    
+        .sections{
+            width: 100%;
+            text-align: center;
+            padding-left: 2%;
+            padding-right: 2%;
+      }
+    
+    
+    .sections p {
+            width: 100%;
+            text-align: center;
+            
+      }
+    
 } 

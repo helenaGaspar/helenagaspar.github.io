@@ -1,0 +1,409 @@
+
+body {
+        padding-top: 0px;
+        font-family: "Montserrat" , sans-serif;
+    }    
+
+
+
+/** index **/
+
+.logo {
+        width: 20%;
+        height: 20%;
+        position: fixed;
+        top: 0;
+        left: 2;
+        z-index: 25;
+        background-image: url("logo.svg");
+        background-repeat:no-repeat;
+    }
+    
+    nav {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left:0;
+        width: 100%;
+        z-index: 10;
+        text-align: center;
+        padding-bottom: 1%;
+        padding-top: 1%;
+
+         }
+
+    li {
+        float: right;
+        display: inline;
+        text-transform: uppercase;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    li a {
+        color: #330a0a;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: #e2a89a;
+    }
+
+
+
+    .headerimage {
+        
+        width: 100%;
+        padding-top: 80px;
+        max-width: 100%;
+    }
+
+    
+    .taglinetext{
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .taglinetext p{
+        font-family: "PT Serif";
+        color: #330a0a;
+        font-size: 1.25em;
+        line-height: 1.5em;
+    }
+
+    .taglinetext h3{
+      font-family: "Montserrat", sans-serif;
+      font-weight:500;
+      font-size: 1.5em;
+      line-height: 1em;
+      color: #bfa67a;
+      text-transform: uppercase;
+    }
+
+    .section_tres {
+            padding-top: 15px;
+            padding-bottom: 35px;
+            text-align: justify;
+        }
+
+     .section_tres h4 {
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+    p{
+        font-family: "PT Serif";
+        color:#606060;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+
+    .section_tres p {
+                text-align: center;
+        width: 100%;
+            }
+
+     .touch{
+            text-align: center;
+            color: #ffffff;
+            background-color: #330a0a;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            padding-left: 2%;
+            padding-right: 2%;
+            clear: both;
+        }
+
+    .touch p {
+                font-family: "Montserrat";
+                line-height: 150%;
+                color:#ffffff;
+                font-weight: 300;
+        
+            }
+
+    .float{
+            width: 29%;
+            float: left;
+            padding-bottom: 45px;
+            margin-left: 2%;
+            margin-right: 2%;
+            
+        }
+
+
+.float h4{
+        color: #bfa67a;
+            
+        }
+
+
+
+/** About Page **/
+
+
+    .about{
+        width: 50%;
+        padding-left: 40%;  
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about h2{
+        color:#bfa67a;
+        font-size: 2.2em;
+    }
+
+    .about h3{
+        color: #330a0a;
+        font-size: 1.1em;
+    }
+
+    .about p{
+        text-align: justify;
+        font-weight: normal;
+        padding-right: 45px;
+       
+
+    }
+
+.abouttext{
+    width: 30%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 2%;
+    
+}
+
+
+.float_sec{
+    width: 29%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.sections{
+    float: left;
+    padding-top: 80px;
+    text-align: justify;
+    padding-bottom: 65px;
+
+}
+
+
+.sections h4 {
+        text-transform: uppercase;
+        text-align: center;
+        color:#bfa67a;
+            }
+
+.sections p {
+        text-align: justify;
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+            }
+
+
+    /** Weddings Page **/
+
+    .headerimageWed {
+            background-image: url("images/header7.jpg");
+            height: 250px;
+            width: 100%;
+            padding-top: 80px;
+        }
+
+    .section_weddings{
+            padding-top: 15px;
+            padding-bottom: 35px;
+            text-align: justify;  
+    }
+
+     .floatWeddings{
+                width: 45%;
+                float: left;
+                padding-bottom: 2%;
+                padding-right: 2%;
+                padding-left: 2%;
+            }
+
+    .tumb{
+        width: 100%;
+        
+    }
+
+.floatWeddings h4 {
+    color:#540b07;
+    text-transform: uppercase;
+}
+
+p a  {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+    color: #bfa67a;
+}
+
+
+
+
+a:hover {
+    color: #e2a89a;}
+
+
+
+    /** Real Weddings **/
+
+
+    .wedimage {
+
+            width: 100%;
+            padding-top: 0px;
+            max-width: 100%;
+        }
+
+    .testemonial{
+            text-align: left;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+
+    .testemonial p{
+        font-family: "PT Serif";
+        color: #330a0a;
+        text-align: justify;
+    }
+
+    .testemonial h3{
+      font-family: "Montserrat", sans-serif;
+      font-weight:500;
+      font-size: 20px;
+      line-height: 26px;
+      color: #bfa67a;
+      text-transform: uppercase;
+    }
+
+    #couple{
+      font-family: "Montserrat", sans-serif;
+      font-weight:400;
+      color: #330a0a;
+      text-align: right;
+
+    }
+
+
+ .inlove{
+            text-align: center;
+            color: #330a0a;
+            background-color:white;
+            padding-top: 35px;
+            padding-bottom: 35px;
+            clear: both;
+        }
+
+    .inlove p {
+                font-family: "Montserrat";
+                line-height: 150%;
+                color:#330a0a;
+                font-weight: 300;
+                font-size: 1.2em;
+            }
+
+    .button {
+    background-color: #bfa67a;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.5;
+    margin-left: 2%;
+    font-weight: 300;
+            }
+
+.button:hover {background-color: #e2a89a;
+color:white;}
+
+.netx{
+    display: inline;
+}
+        
+
+
+/** Location **/
+
+   .list p{
+        text-align: justify;
+        font-weight: normal;
+        padding-right: 45px;
+        line-height: 1.2em;
+
+    }
+
+
+    .list{
+            width: 50%;
+            padding-left: 40%;  
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+    .list h2{
+        color:#bfa67a;
+        font-size: 2.2em;
+    }
+
+    .list h3{
+        color: #330a0a;
+        font-size: 1.1em;
+    }
+
+
+#more{
+    line-height: 1.4em;
+}
+
+
+/** Footer **/
+
+    footer{
+        text-align: center;
+        font-size: 9pt;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+
+
+
+@media only screen and (max-width: 500px) {
+   
+    li { font-size: 0.75em;
+    }
+    
+    .float{
+            width: 100%;
+        }
+
+    .floatWeddings{
+                width: 100%;
+                float: left;
+                padding-bottom: 45px;
+                padding-right: 2%;
+                padding-left: 2%;
+            }
+    
+    .float_sec{
+    width: 100%;
+}
+
+} 
